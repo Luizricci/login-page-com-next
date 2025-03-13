@@ -15,7 +15,7 @@ export default function Login() {
               <Button text="Criar conta" />
             </Link>
             <Link href="/login">
-              Criar Conta
+              Entrar 
             </Link>
           </form>
         </main>

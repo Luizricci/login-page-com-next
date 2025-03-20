@@ -1,7 +1,8 @@
 import Link from "next/link";
 import styles from "./page.module.css";
-import Input from "../../components/Input";
 import Button from "../../components/Button";
+import Input from "../../components/Input";
+
 
 export default function Login() {
   return (
@@ -9,8 +10,10 @@ export default function Login() {
       <div className={styles.container}>
         <main className={styles.main}>
           <form className={styles.loginForm}>
-            <Input title="Nome de Usuário:"/>
-            <Input title="Senha:"/>
+              <legend>Digite Seu E-mail</legend>
+            <Input type="text" placeholder="Email" />
+              <legend>Digite Sua Senha</legend>  
+            <Input type="password" placeholder="Senha" />
             <Link href="/first-page">
               <Button text="Entrar" />
             </Link>

@@ -1,10 +1,13 @@
 import styles from "../styles/inputs.module.css";
 
-export default function Input( {title} ) {
+export default function Input({ type, placeholder, value, onChange }) {
     return (
-        <div className={styles.divInput}>
-            <label htmlFor="username">{title}</label>
-            <input type="text" id="username" name="username" required />
-        </div>
-    )
+        <input
+            type={type}
+            placeholder={placeholder}
+            value={value}
+            onChange={onChange}
+            className={styles.input}
+        />
+    );
 }

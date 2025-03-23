@@ -1,4 +1,4 @@
-.page{
+.page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,70 +12,72 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px; 
+    gap: 20px;
 }
 
 
 .title {
-    font-size: 26px; 
+    font-size: 26px;
     font-weight: bold;
-    color: #222; 
-    margin-bottom: 15px; 
+    color: #222;
+    margin-bottom: 15px;
     text-align: center;
 }
 
 
 
 .litleTitle {
-    font-size: 18px; 
-    font-weight: 600; 
-    color: #ffffff; 
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
     margin-bottom: 10px;
-    text-align: left; 
+    text-align: left;
 }
 
 
 .nome {
     font-size: 18px;
-    font-weight: bold; 
-    color: #222; 
-    text-align: center; 
-    margin-bottom: 10px; 
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+    margin-bottom: 10px;
 }
-.main{
+
+.main {
     display: flex;
     width: 48%;
-    height:100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     font-family: 'poppins', sans-serif;
     font-size: 19px;
 }
 
-.userInfo{
+.userInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
 }
-.profile{
+
+.profile {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color: aliceblue;
     margin-top: 5%;
 }
-.form{
+
+.form {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     height: 100%;
-    justify-content: center;
-    gap: 10px;
+    justify-content: center;    gap: 10px;
 }
 
-.cardsContainer{
+.cardsContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
@@ -83,5 +85,3 @@
     justify-content: center;
     align-items: center;
 }
-
-

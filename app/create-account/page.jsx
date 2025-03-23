@@ -70,7 +70,9 @@ export default function Login() {
                 className={styles.input}
               />
               <button onClick={handleCheck} className={styles.btnVerificar}>Verificar</button>{" "}
-              {match !== null && <p>{error}</p>}{" "}
+              <div className={styles.errorMessage}>
+                {match !== null && <p>{error}</p>}
+              </div>
               <Link href="/first-page">
                 <Button text="Criar conta" />
               </Link>

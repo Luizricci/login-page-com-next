@@ -22,7 +22,7 @@ export default function First() {
                   <Cards imgSrc="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="icon" text="JavaScript" />
                   <Cards imgSrc="https://cdn-icons-png.flaticon.com/512/1183/1183672.png" alt="icon" text="Next.js" />
                   <Cards imgSrc="https://cdn-icons-png.flaticon.com/512/5968/5968342.png" alt="icon" text="PostgreSQL" />
-                  <Cards imgSrc="https://cdn-icons-png.flaticon.com/512/5968/5968520.png" alt="icon" text="Postman" />
+                  <Cards imgSrc="https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000" alt="Postman Icon" text="Postman" />
                 </div>
             </div>
           </div>
